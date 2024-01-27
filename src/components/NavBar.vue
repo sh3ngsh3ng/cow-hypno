@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" @click="$sharedMethods.navigateTo('/')">
         <!-- <img id="nav-logo" src="../assets/logo.jpg"/> -->
@@ -142,10 +142,10 @@
               :class="[
                 'nav-link',
                 {
-                  activeLink: $route.path === '/about',
+                  activeLink: $route.path === '/services',
                 },
               ]"
-              @click="$sharedMethods.navigateTo('/about')"
+              @click="$sharedMethods.navigateTo('/services')"
               >Our Services</a
             >
           </li>

@@ -1,14 +1,15 @@
 <script setup>
+
 </script>
 
 <template>
-  <div id="home-page-div">
-    <h1>Home Page</h1>
+  <div id="services-page-div">
+  <h1>Services Page</h1>
   </div>
 </template>
 
 <style scoped>
-#home-page-div {
+#services-page-div {
 
 }
 </style>
