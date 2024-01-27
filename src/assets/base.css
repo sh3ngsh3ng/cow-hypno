@@ -1,0 +1,38 @@
+.section-header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #8282FF;
+}
+
+
+.p1 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5E5E5E;
+}
+
+.t1 {
+    font-family: Solway;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #08ACF2;
+}
+
+.service-card {
+    width: 100%;
+    border: 2px solid #81D1FE;
+    height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.service-btn {
+    position: absolute;
+    bottom: 10px;
+}
