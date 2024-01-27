@@ -8,6 +8,16 @@ import router from './router'
 
 const app = createApp(App)
 
+// global methods
+const sharedMethods = {
+    navigateTo: function(routePath) {
+        router.push(routePath)
+    }
+}
+
+// setting globals
+app.config.globalProperties.$sharedMethods = sharedMethods
+
 app.use(router)
 
 app.mount('#app')

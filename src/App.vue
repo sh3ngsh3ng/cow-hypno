@@ -1,17 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import NavBar from "@/components/NavBar.vue"
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-  </nav>
+  <NavBar />
   <main>
+  
     <div id="router-div">
       <RouterView />
     </div>
-    <button class="btn btn-primary">Testing</button>
+
+    <!-- <button @click="$sharedMethods.navigateTo('/about')">Test </button> -->
   </main>
 </template>
 
