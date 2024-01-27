@@ -1,18 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import NavBar from "@/components/NavBar.vue"
+import NavBar from "@/components/NavBar.vue";
 </script>
 
 <template>
   <NavBar />
   <main>
-  
     <div id="router-div">
-      <RouterView />
+        <RouterView />
     </div>
 
     <!-- <button @click="$sharedMethods.navigateTo('/about')">Test </button> -->
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+#router-div {
+  height: 100vh;
+}
+</style>
