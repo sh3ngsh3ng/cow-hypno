@@ -14,11 +14,27 @@
     color: #5E5E5E;
 }
 
+.p2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #08ACF2;
+}
+
 .t1 {
     font-family: Solway;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+    color: #08ACF2;
+}
+
+.t2 {
+    font-family: Solway;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
     color: #08ACF2;
 }
 
@@ -35,4 +51,18 @@
 .service-btn {
     position: absolute;
     bottom: 10px;
+}
+
+.standard-btn {
+    border-radius: 20px;
+    padding: 12px;
+    height: 53px;
+    border: 2px solid #8282FF;
+    background-color: white;
+    color: #8282FF;
+    font-weight: 700;
+}
+
+section {
+    padding: 20px;
 }

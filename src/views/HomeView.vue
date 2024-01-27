@@ -51,7 +51,10 @@
         Overall, while the idea of a C.O.W. Soulmate is a supportive and caring professional services can contribute to
         your emotional well-being and bring back a quality lifestyle.
       </p>
-      <button>Learn more about us</button>
+
+      <button class="standard-btn">Learn more about us</button>
+
+
     </section>
     <section>
       <p class="section-header">Our services</p>
@@ -60,7 +63,7 @@
         volutpat tristique mauris donec est ut. Magnis molestie ipsum odio nulla tortor orci. Etiam in sit rhoncus
         vulputate a vitae. Pretium dui scelerisque id sodales orci.
       </p>
-      <p class="p1">
+      <p class="p2">
         Here are three of our most popular services:
       </p>
       <div id="card-div">
@@ -73,7 +76,7 @@
             able to help you overcome any psychological barriers or self-limiting beliefs that may be inhibiting their
             ability to fully engage in lifestyle activities.
           </p>
-          <button class="service-btn">Read more here</button>
+          <button class="service-btn standard-btn">Read more here</button>
         </div>
         <!-- HypnoArt Therapy Card -->
         <div class="service-card">
@@ -83,7 +86,7 @@
             By combining hypnotherapy and art, individuals can gain insight into their thoughts and emotions and find
             new ways to cope with challenges. This approach can have positive effects on mental health and well-being.
           </p>
-          <button class="service-btn">Read more here</button>
+          <button class="service-btn standard-btn">Read more here</button>
         </div>
         <!-- HypnoDance Therapy Card -->
         <div class="service-card">
@@ -93,10 +96,10 @@
             Combining hypnosis and fusion dance offers a transformative experience, enhancing mind-body connection,
             well-being, and personal growth. Working with skilled practitioners ensures safe and effective application
             for healing, self-expression, and teamwork.</p>
-          <button class="service-btn">Read more here</button>
+          <button class="service-btn standard-btn">Read more here</button>
         </div>
       </div>
-      <button>Learn more about our services</button>
+      <button class="standard-btn">Learn more about our services</button>
     </section>
     <section>
       <p class="section-header">We offer free consultations</p>
@@ -105,15 +108,11 @@
         needs, goals, and concerns with the hypnotherapist. It helps evaluate the client's readiness for therapy session
         and address any inquiries. The free pre-consultation builds trust and ensures both parties are comfortable
         before starting therapy session.</p>
-      <button>Book your free consultation now!</button>
+      <button class="standard-btn">Book your free consultation now!</button>
     </section>
   </div>
 </template>
 
 <style scoped>
   #home-page-div {}
-
-  section {
-    padding: 20px;
-  }
 </style>
