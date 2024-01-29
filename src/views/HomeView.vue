@@ -9,10 +9,10 @@
       <div id="hero-consult-btn-div" class="mt-3"><button class="standard-btn">Book a Free consultation now</button>
       </div>
     </div>
-    <section>
+    <section class="container">
       <p class="section-header">What do we mean by 'Soulmate'</p>
-      <div class="mb-3">
-        <svg style="width:100%;height:auto;" viewBox="0 0 350 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="d-flex justify-content-center mb-3">
+        <svg style="max-width:350px;height:auto;" viewBox="0 0 350 273" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M151.695 239.424C150.439 242.316 148.819 245.209 146.924 248.033C141.652 255.982 138.844 257.508 133.914 261.22C141.857 266.299 150.622 270.513 159.387 272.54C158.907 270.057 150.919 260.651 150.462 255.458C150.051 250.584 150.668 244.412 151.672 239.424H151.695Z"
             fill="#81D1FE" />
@@ -65,7 +65,7 @@
 
 
     </section>
-    <section>
+    <section class="container">
       <p class="section-header">Our services</p>
       <p class="p1">
         Brief description of therapy and services provided. Lorem ipsum dolor sit amet consectetur. Lacus amet posuere
@@ -149,7 +149,7 @@
       </div>
 
     </section>
-    <section>
+    <section class="container">
       <p class="section-header">We offer free consultations</p>
       <svg width="100%" height="241" viewBox="0 0 310 241" fill="none" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">

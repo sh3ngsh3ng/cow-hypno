@@ -10,7 +10,7 @@
     </div>
     <section>
       <p class="section-header">We offer free consultations</p>
-      <svg width="100%" height="241" viewBox="0 0 310 241" fill="none" xmlns="http://www.w3.org/2000/svg"
+      <svg width="100%" viewBox="0 0 310 241" fill="none" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect y="0.57251" width="310" height="240" fill="url(#pattern3)" />
         <defs>
@@ -27,7 +27,9 @@
         inquiries. The free pre-consultation builds trust and ensures both parties are comfortable before starting
         therapy session.
       </p>
-      <button class="standard-btn">Book your free consultation now!</button>
+      <div class="d-flex justify-content-center"><button class="standard-btn">Book your free consultation now!</button>
+      </div>
+
 
     </section>
     <section>
