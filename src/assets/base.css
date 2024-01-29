@@ -50,7 +50,7 @@
 
 .service-btn {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
 }
 
 .standard-btn {
@@ -65,4 +65,28 @@
 
 section {
     padding: 20px;
+}
+
+
+.hero-banner {
+    min-height: 30vh;
+    background-color: lightgray;
+}
+
+
+.hero-banner-big-letters {
+    font-family: Cinzel Decorative;
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.hero-banner-small-letters {
+    font-family: Solway;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 28.8px;
 }

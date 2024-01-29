@@ -8,7 +8,6 @@
 <template>
   <NavBar />
   <main>
-    <HeroBanner />
     <div id="router-div">
       <RouterView />
     </div>
