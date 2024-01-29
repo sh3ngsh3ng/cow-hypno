@@ -1,5 +1,11 @@
 <template>
-  <div class="about">
+  <div id="about-page-div">
+    <div class="hero-banner">
+      <div class="hero-banner-big-letters pt-2 mb-2">C.O.W.</div>
+      <div class="hero-banner-small-letters mb-3">Take your first step to happiness here at C.O.W. Soulmate!</div>
+      <div id="hero-consult-btn-div" class="mt-3"><button class="standard-btn">Book a Free consultation now</button>
+      </div>
+    </div>
     <section>
       <p class="section-header">Our mission</p>
       <p class="p1">
