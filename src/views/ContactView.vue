@@ -101,7 +101,21 @@
         feedback form. Your feedback will allow us to improve our service and give you a better experience next time!
       </p>
       <div class="d-flex justify-content-center">
-        <button class="standard-btn">Feedback form</button>
+
+
+        <button class="standard-btn"><a href="javascript:void(
+            window.open(
+              'https://form.jotform.com/230793275000449',
+              'blank',
+              'scrollbars=yes,
+              toolbar=no,
+              width=700,
+              height=500'
+            )
+          )
+        ">
+            Feedback Form
+          </a></button>
       </div>
     </section>
 
@@ -115,5 +129,9 @@
 
   .contact-div>p {
     text-align: center;
+  }
+
+  a {
+    text-decoration: none;
   }
 </style>
