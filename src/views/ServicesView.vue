@@ -4,7 +4,7 @@
 
 <template>
   <div id="services-page-div">
-    <div class="hero-banner">
+    <div id="service-view-banner" class="hero-banner">
       <div class="hero-banner-big-letters pt-3 mb-3">WHAT WE OFFER</div>
       <div class="hero-banner-small-letters mb-3">How we can lead you to a happier and healthier life.</div>
     </div>
@@ -195,4 +195,10 @@
 
 <style scoped>
   #services-page-div {}
+
+  #service-view-banner {
+    background-image: url('../assets/service-banner.jpg');
+    background-position: center;
+    background-size: cover;
+  }
 </style>

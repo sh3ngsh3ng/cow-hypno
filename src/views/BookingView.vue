@@ -18,7 +18,7 @@
 <template>
   <div class="calendly-embed" style="height:auto;" data-auto-load="false"></div>
   <div id="booking-page-div">
-    <div class="hero-banner">
+    <div id="booking-view-banner" class="hero-banner">
       <div class="hero-banner-big-letters pt-2 mb-2">LETS GET STARTED</div>
       <div class="hero-banner-small-letters">Find a slot for your consultation</div>
     </div>
@@ -58,4 +58,9 @@
 </template>
 
 <style scoped>
+  #booking-view-banner {
+    background-image: url('../assets/booking-banner.jpg');
+    background-position: center;
+    background-size: cover;
+  }
 </style>

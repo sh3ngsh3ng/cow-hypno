@@ -4,6 +4,10 @@
 
 <template>
   <div id="contact-page-div">
+    <div id="contact-view-banner" class="hero-banner">
+      <div class="hero-banner-big-letters pt-3 mb-3">GET IN TOUCH WITH US</div>
+      <div class="hero-banner-small-letters mb-3">Our contact details and social media</div>
+    </div>
     <section>
       <div id="contact-main-div">
         <div class="contact-div">
@@ -132,5 +136,11 @@
 
   a {
     text-decoration: none;
+  }
+
+  #contact-view-banner {
+    background-image: url('../assets/contact-banner.jpg');
+    background-position: center;
+    background-size: cover;
   }
 </style>
