@@ -50,7 +50,8 @@
         </li>
       </ul>
       <div class="d-flex justify-content-center">
-        <button class="standard-btn">Learn more about our services</button>
+        <button class="standard-btn" @click="$sharedMethods.navigateTo('/services')">Learn more about our
+          services</button>
       </div>
     </section>
   </div>

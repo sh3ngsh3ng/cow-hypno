@@ -14,21 +14,26 @@
           <p class="section-header">Social Media</p>
           <div class="socials-logo-div d-flex justify-content-between mb-3">
             <!-- facebook -->
-            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')"
+              width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="60" height="60" rx="30" fill="#81D1FE" />
               <path
                 d="M39.9702 8.3335H33.1777C29.1468 8.3335 24.6632 10.062 24.6632 16.0194C24.6829 18.0951 24.6632 20.0831 24.6632 22.3204H20V29.8862H24.8075V51.6668H33.6416V29.7425H39.4724L40 22.2992H33.4894C33.4894 22.2992 33.504 18.9881 33.4894 18.0265C33.4894 15.6723 35.892 15.8071 36.0365 15.8071C37.1799 15.8071 39.4029 15.8105 39.9736 15.8071V8.3335H39.9702Z"
                 fill="white" />
             </svg>
             <!-- tiktok -->
-            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')"
+              width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="60" height="60" rx="30" fill="#81D1FE" />
               <path
                 d="M40.2223 16.2667C38.7033 14.5325 37.8661 12.3054 37.8668 10H31.0001V37.5556C30.9471 39.0467 30.3176 40.4592 29.244 41.4954C28.1705 42.5317 26.7367 43.1109 25.2445 43.1111C22.089 43.1111 19.4668 40.5333 19.4668 37.3333C19.4668 33.5111 23.1557 30.6444 26.9557 31.8222V24.8C19.289 23.7778 12.5779 29.7333 12.5779 37.3333C12.5779 44.7333 18.7112 50 25.2223 50C32.2001 50 37.8668 44.3333 37.8668 37.3333V23.3556C40.6512 25.3552 43.9942 26.4281 47.4223 26.4222V19.5556C47.4223 19.5556 43.2445 19.7556 40.2223 16.2667Z"
                 fill="white" />
             </svg>
             <!-- instagram -->
-            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg
+              @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')"
+              width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="60" height="60" rx="30" fill="#81D1FE" />
               <g clip-path="url(#clip0_38_5561)">
                 <path

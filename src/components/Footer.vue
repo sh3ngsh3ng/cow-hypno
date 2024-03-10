@@ -201,7 +201,8 @@
                 <div id="footer-social-div">
                     <div class="socials-logo-div d-flex justify-content-between mb-3">
                         <!-- facebook -->
-                        <svg width="60" height="66" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')"
+                            width="60" height="66" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.572266" width="80" height="80" rx="40" fill="white" />
                             <path
                                 d="M49.9702 18.9056H43.1777C39.1468 18.9056 34.6632 20.6341 34.6632 26.5915C34.6829 28.6672 34.6632 30.6552 34.6632 32.8925H30V40.4583H34.8075V62.2389H43.6416V40.3146H49.4724L50 32.8713H43.4894C43.4894 32.8713 43.504 29.5602 43.4894 28.5986C43.4894 26.2444 45.892 26.3793 46.0365 26.3793C47.1799 26.3793 49.4029 26.3827 49.9736 26.3793V18.9056H49.9702Z"
@@ -210,7 +211,8 @@
 
 
                         <!-- tiktok -->
-                        <svg width="60" height="60" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')"
+                            width="60" height="60" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.572266" width="80" height="80" rx="40" fill="white" />
                             <path
                                 d="M50.2221 26.8389C48.703 25.1048 47.8659 22.8777 47.8665 20.5723H40.9999V48.1278C40.9469 49.619 40.3173 51.0314 39.2438 52.0677C38.1702 53.1039 36.7364 53.6832 35.2443 53.6834C32.0887 53.6834 29.4665 51.1056 29.4665 47.9056C29.4665 44.0834 33.1554 41.2167 36.9554 42.3945V35.3723C29.2887 34.35 22.5776 40.3056 22.5776 47.9056C22.5776 55.3056 28.711 60.5723 35.2221 60.5723C42.1999 60.5723 47.8665 54.9056 47.8665 47.9056V33.9278C50.651 35.9275 53.994 37.0004 57.4221 36.9945V30.1278C57.4221 30.1278 53.2443 30.3278 50.2221 26.8389Z"
@@ -218,7 +220,8 @@
                         </svg>
 
                         <!-- instagram -->
-                        <svg width="60" height="60" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')"
+                            width="60" height="60" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.572266" width="80" height="80" rx="40" fill="white" />
                             <g clip-path="url(#clip0_296_2884)">
                                 <path
@@ -250,8 +253,10 @@
                 </div>
                 <div class="white-line"></div>
                 <div id="footer-forms-div">
-                    <div class="footer-header-title text-center m-3">Feedback Form</div>
-                    <div class="footer-header-title text-center m-3">Consent Form</div>
+                    <div class="footer-header-title text-center m-3" @click="$sharedMethods.openConsultWidget()">
+                        Feedback Form</div>
+                    <div class="footer-header-title text-center m-3" @click="$sharedMethods.bookSessionWidget()">Consent
+                        Form</div>
                 </div>
             </div>
         </div>

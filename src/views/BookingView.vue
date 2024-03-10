@@ -1,15 +1,15 @@
 <script>
   export default {
-    methods: {
-      openConsultWidget() {
-        Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/free_consultation' });
-        return false;
-      },
-      bookSessionWidget() {
-        Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/booking-sessions' });
-        return false;
-      }
-    }
+    // methods: {
+    //   openConsultWidget() {
+    //     Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/free_consultation' });
+    //     return false;
+    //   },
+    //   bookSessionWidget() {
+    //     Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/booking-sessions' });
+    //     return false;
+    //   }
+    // }
   }
 
 
@@ -43,14 +43,14 @@
         inquiries. The free pre-consultation builds trust and ensures both parties are comfortable before starting
         therapy session.
       </p>
-      <button class="standard-btn">Book your free consultation now!</button>
+      <button @click="$sharedMethods.openConsultWidget()" class="standard-btn">Book your free consultation now!</button>
     </section>
     <section>
       <p class="section-header">Book an appointment</p>
-      <div class="d-flex justify-content-center"><button @click="openConsultWidget()" id="free-consult-btn"
-          class="standard-btn mb-2">Free Consultations</button></div>
-      <div class="d-flex justify-content-center"> <button @click="bookSessionWidget()" id="book-session-btn"
-          class="standard-btn">Book an Appointment</button></div>
+      <div class="d-flex justify-content-center"><button @click="$sharedMethods.openConsultWidget()"
+          id="free-consult-btn" class="standard-btn mb-2">Free Consultations</button></div>
+      <div class="d-flex justify-content-center"> <button @click="$sharedMethods.bookSessionWidget()"
+          id="book-session-btn" class="standard-btn">Book an Appointment</button></div>
 
 
     </section>
