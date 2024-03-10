@@ -1,6 +1,6 @@
 <template>
   <div id="about-page-div">
-    <div class="hero-banner">
+    <div id="about-view-banner" class="hero-banner">
       <div class="hero-banner-big-letters pt-3 mb-3">C.O.W. <br>SOULMATE</div>
       <div class="hero-banner-small-letters mb-3">A little more about who we are.</div>
     </div>
@@ -57,4 +57,9 @@
 </template>
 
 <style>
+  #about-view-banner {
+    background-image: url('../assets/about-banner.jpg');
+    background-position: center;
+    background-size: cover;
+  }
 </style>
