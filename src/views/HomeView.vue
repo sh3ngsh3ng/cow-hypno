@@ -3,10 +3,11 @@
 
 <template>
   <div id="home-page-div">
-    <div class="hero-banner">
+    <div id="home-view-banner" class="hero-banner">
       <div class="hero-banner-big-letters pt-2 mb-2">WELCOME</div>
       <div class="hero-banner-small-letters mb-3">Take your first step to happiness here at C.O.W. Soulmate!</div>
-      <div id="hero-consult-btn-div" class="mt-3"><button class="standard-btn">Book a Free consultation now</button>
+      <div id="hero-consult-btn-div" class="mt-3 pb-3"><button class="standard-btn">Book a Free consultation
+          now</button>
       </div>
     </div>
     <section class="container">
@@ -178,5 +179,11 @@
   #hero-consult-btn-div {
     display: flex;
     justify-content: center;
+  }
+
+  #home-view-banner {
+    background-image: url('../assets/home-banner.jpg');
+    background-position: center;
+    background-size: cover;
   }
 </style>

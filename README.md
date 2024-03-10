@@ -1,6 +1,7 @@
 # cow-hypno
 
 This template should help get you started developing with Vue 3 in Vite.
+https://docs.google.com/document/d/1irHDHgQAe_4W909tlvnv1hV-LYsiRjt-d0iyKZVHojc/edit
 
 ## Recommended IDE Setup
 

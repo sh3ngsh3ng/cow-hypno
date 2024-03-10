@@ -118,7 +118,6 @@
           </a></button>
       </div>
     </section>
-
   </div>
 </template>
 
