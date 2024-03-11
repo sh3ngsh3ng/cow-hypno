@@ -54,11 +54,11 @@
                 <div class="white-line"></div>
                 <div id="footer-menu-div">
                     <div class="footer-header-title text-center m-3">Menu</div>
-                    <div class="text-center m-3">Home</div>
-                    <div class="text-center m-3">About Us</div>
-                    <div class="text-center m-3">Our Services</div>
-                    <div class="text-center m-3">Contact Us</div>
-                    <div class="text-center m-3">Book Your Session</div>
+                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/')">Home</div>
+                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/about')">About Us</div>
+                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/services')">Our Services</div>
+                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/contact')">Contact Us</div>
+                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/book')">Book Your Session</div>
                 </div>
                 <div class="white-line"></div>
                 <div id="footer-contact-us-div">
