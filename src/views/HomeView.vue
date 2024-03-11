@@ -191,7 +191,8 @@
   #home-view-banner {
     background-image: url('../assets/home-banner.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: none;
   }
 
   #home-section-one-logo {
