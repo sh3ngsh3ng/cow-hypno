@@ -190,7 +190,7 @@
 
   #home-view-banner {
     background-image: url('../assets/home-banner.jpg');
-    background-position: center;
+    background-position: center calc(50% - 60px);
     background-size: 100%;
     background-repeat: none;
   }
