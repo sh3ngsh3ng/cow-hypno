@@ -13,6 +13,10 @@ const sharedMethods = {
     navigateTo: function (routePath) {
         window.scrollTo(0, 0)
         router.push(routePath)
+
+        if (document.querySelector('.navbar-toggler').getAttribute('aria-expanded')){
+            this.collapseNav();
+        }
     },
     openConsultWidget: function () {
         Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/free_consultation' });
@@ -24,6 +28,12 @@ const sharedMethods = {
     },
     redirectTo: function (link) {
         window.open(link, '_blank')
+    },
+    collapseNav: function() {
+        document.querySelector('.navbar-collapse').classList.remove('show')
+        document.querySelector('.navbar-toggler').classList.add('collapsed')
+        const button = document.querySelector('.navbar-toggler')
+        button.setAttribute('aria-expanded', 'false')
     }
 }
 
