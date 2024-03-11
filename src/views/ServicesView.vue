@@ -291,6 +291,10 @@
       min-height: 200px;
     }
 
+    .p1 {
+      line-height: 20px;
+    }
+
     .service-img {
       width: 40vw;
     }
@@ -324,5 +328,9 @@
     #service-section-three-logo {
       width: 25vw;
     }
+
+    /* .standard-btn {
+      right: 10px;
+    } */
   }
 </style>
