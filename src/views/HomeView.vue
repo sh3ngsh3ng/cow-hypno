@@ -4,7 +4,7 @@
 <template>
   <div id="home-page-div">
     <div id="home-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-2 mb-2">WELCOME</div>
+      <div class="hero-banner-big-letters pt-2 mb-2">Welcome</div>
       <div class="hero-banner-small-letters mb-3">Take your first step to happiness here at C.O.W. Soulmate!</div>
       <div id="hero-consult-btn-div" class="mt-3 pb-3"><button @click="$sharedMethods.openConsultWidget()"
           class="action-btn">Book a Free consultation
