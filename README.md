@@ -9,4 +9,3 @@
 - Footer for Laptop (major)
 - Standardize Banner (minor)
 - Close navbar on toggle (minor) [Reference](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click)
-- test
