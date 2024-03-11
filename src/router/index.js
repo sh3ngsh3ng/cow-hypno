@@ -4,6 +4,8 @@ import AboutView from "../views/AboutView.vue"
 import BookingView from "@/views/BookingView.vue"
 import ContactView from "@/views/ContactView.vue"
 import ServicesView from "@/views/ServicesView.vue"
+import HypnosisView from "@/views/HypnosisView.vue"
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -35,6 +37,11 @@ const router = createRouter({
       path: "/services",
       name: "services",
       component: ServicesView
+    },
+    {
+      path: "/hypnosis",
+      name: "hypnosis",
+      component: HypnosisView
     }
   ]
 })
