@@ -123,7 +123,7 @@
               able to help you overcome any psychological barriers or self-limiting beliefs that may be inhibiting their
               ability to fully engage in lifestyle activities.
             </p>
-            <button class="service-btn standard-btn">Read more here</button>
+            <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnosis')">Read more here</button>
           </div>
           <!-- HypnoArt Therapy Card -->
           <div class="service-card">
