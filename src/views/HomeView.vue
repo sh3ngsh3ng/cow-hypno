@@ -7,7 +7,7 @@
       <div class="hero-banner-big-letters pt-2 mb-2">WELCOME</div>
       <div class="hero-banner-small-letters mb-3">Take your first step to happiness here at C.O.W. Soulmate!</div>
       <div id="hero-consult-btn-div" class="mt-3 pb-3"><button @click="$sharedMethods.openConsultWidget()"
-          class="standard-btn">Book a Free consultation
+          class="action-btn">Book a Free consultation
           now</button>
       </div>
     </div>
@@ -198,6 +198,15 @@
     max-width: 350px;
   }
 
+  .action-btn {
+    background-color: #08ACF2;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+  }
+
   @media screen and (min-width: 1024px) {
     .service-card {
       width: 30%;
@@ -225,5 +234,7 @@
     }
 
     .service-card {}
+
+
   }
 </style>
