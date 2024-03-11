@@ -215,9 +215,7 @@
       display: flex;
       justify-content: space-around;
     }
-  }
 
-  @media screen and (min-width: 1280px) {
     #home-page-section-one {
       display: flex;
       justify-content: center;
@@ -231,9 +229,7 @@
     #home-section-one-logo {
       width: 30vw;
     }
-
-    .service-card {}
-
-
   }
+
+  @media screen and (min-width: 1280px) {}
 </style>
