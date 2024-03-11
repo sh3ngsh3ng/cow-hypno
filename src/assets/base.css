@@ -44,7 +44,7 @@
 .service-card {
     width: 100%;
     border: 2px solid #81D1FE;
-    min-height: 520px;
+    min-height: 550px;
     border-radius: 20px;
     padding: 20px;
     position: relative;
@@ -98,14 +98,14 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-    .service-btn {
-        position: relative;
+    .service-card {
+        min-height: 650px;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
-    .service-btn {
-        position: relative;
+    .service-card {
+        min-height: 550px;
     }
 }

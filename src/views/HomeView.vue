@@ -181,8 +181,6 @@
 </template>
 
 <style scoped>
-  #home-page-div {}
-
   #hero-consult-btn-div {
     display: flex;
     justify-content: center;
