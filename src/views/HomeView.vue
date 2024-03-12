@@ -1,5 +1,5 @@
 <script>
-  import homeSecionOneLogo from '@/assets/svg/home-view/home-section-one-logo.svg';
+  import homeSectionOneLogo from '@/assets/svg/home-view/home-section-one-logo.svg';
   import hypnosis from '@/assets/svg/home-view/hypnosis.svg';
   import hypnoart from '@/assets/svg/home-view/hypnoart.svg';
   import hypnodance from '@/assets/svg/home-view/hypnodance.svg';
@@ -8,7 +8,7 @@
   export default {
     data() {
       return {
-        homeSecionOneLogo: homeSecionOneLogo,
+        homeSectionOneLogo: homeSectionOneLogo,
         hypnosis: hypnosis,
         hypnoart: hypnoart,
         hypnodance: hypnodance,
@@ -32,7 +32,7 @@
       <p class="section-header mobile-header">What do we mean by 'Soulmate'</p>
       <div id="home-page-section-one">
         <div id="home-section-one-logo-div" class="d-flex justify-content-center mb-3">
-          <img :src="homeSecionOneLogo" id="home-section-one-logo">
+          <img :src="homeSectionOneLogo" id="home-section-one-logo">
         </div>
         <div class="section-text-desktop-div">
           <p class="section-header desktop-header">What do we mean by 'Soulmate'</p>
@@ -157,10 +157,12 @@
   }
 
   #home-section-one-logo {
+    width: 100%;
     max-width: 350px;
   }
 
   #home-section-three-logo {
+    width: 100%;
     max-width: 350px;
   }
 

@@ -13,9 +13,9 @@
     //   }
     // }
     data() {
-        return {
-            consultation: consultation
-        }
+      return {
+        consultation: consultation
+      }
     }
   }
 </script>
@@ -59,8 +59,10 @@
     background-size: cover;
   }
 
-  .booking-image{
-    display: block; 
+  .booking-image {
+    display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
   }
 </style>

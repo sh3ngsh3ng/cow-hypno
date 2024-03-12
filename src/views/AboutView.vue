@@ -1,13 +1,13 @@
 <script>
-    import help from '@/assets/svg/about-view/how-therapy-help.svg';
+  import help from '@/assets/svg/about-view/how-therapy-help.svg';
 
-    export default {
-        data() {
-            return {
-                help: help
-            }
-        }
+  export default {
+    data() {
+      return {
+        help: help
+      }
     }
+  }
 </script>
 
 <template>
@@ -66,8 +66,10 @@
     background-size: cover;
   }
 
-  .help-image{
-    display: block; 
+  .help-image {
+    display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
   }
 </style>

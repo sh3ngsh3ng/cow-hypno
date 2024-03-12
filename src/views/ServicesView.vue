@@ -9,15 +9,15 @@
 
   export default {
     data() {
-        return {
-            consultation: consultation,
-            consent: consent,
-            hypnosis: hypnosis,
-            hypnoart: hypnoart,
-            hypnodance: hypnodance,
-            hypnoworkout: hypnoworkout,
-            healthcoach: healthcoach
-        }
+      return {
+        consultation: consultation,
+        consent: consent,
+        hypnosis: hypnosis,
+        hypnoart: hypnoart,
+        hypnodance: hypnodance,
+        hypnoworkout: hypnoworkout,
+        healthcoach: healthcoach
+      }
     }
   }
 </script>
@@ -110,7 +110,8 @@
                 their
                 ability to fully engage in lifestyle activities.
               </p>
-              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnosis')">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnosis')">Read more
+                here</button>
             </div>
           </div>
           <!-- HypnoArt Therapy Card -->
@@ -133,7 +134,7 @@
           <div class="service-card">
             <div class="service-img-div">
               <img :src="hypnodance" class="service-img">
-              
+
             </div>
             <div class="service-text-div">
               <p class="t1">HypnoDance Therapy</p>
@@ -188,6 +189,11 @@
     background-image: url('../assets/service-banner.jpg');
     background-position: center;
     background-size: cover;
+  }
+
+  #service-section-one-logo {
+    width: 100%;
+    max-width: 350px;
   }
 
   @media screen and (min-width: 768px) {

@@ -9,15 +9,15 @@
 
   export default {
     data() {
-        return {
-            facebook: facebook,
-            tiktok: tiktok,
-            instagram: instagram,
-            wechat: wechat,
-            whatsapp: whatsapp,
-            email: email,
-            feedback: feedback
-        }
+      return {
+        facebook: facebook,
+        tiktok: tiktok,
+        instagram: instagram,
+        wechat: wechat,
+        whatsapp: whatsapp,
+        email: email,
+        feedback: feedback
+      }
     }
   }
 </script>
@@ -35,13 +35,16 @@
             <p class="section-header">Social Media</p>
             <div class="socials-logo-div d-flex justify-content-around mb-3">
               <!-- facebook -->
-              <img :src="facebook" @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')">
-              
-               <!-- tiktok -->
-              <img :src="tiktok" @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')">
+              <img :src="facebook"
+                @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')">
+
+              <!-- tiktok -->
+              <img :src="tiktok"
+                @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')">
 
               <!-- instagram -->
-              <img :src="instagram" @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')">
+              <img :src="instagram"
+                @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')">
 
             </div>
             <p class="p1">Facebook: C O W Soulmate</p>
@@ -74,27 +77,32 @@
       </section>
 
       <section>
-        <img :src="feedback" class="feedback-image">
-        <p class="section-header">Your feedback is valuable to us</p>
-        <p class="p1">If you have any feedback regarding any of your experiences with C.O.W. Soulmate please use our
-          feedback form. Your feedback will allow us to improve our service and give you a better experience next time!
-        </p>
-        <div class="d-flex justify-content-center">
-
-
-          <button class="standard-btn"><a href="javascript:void(
-              window.open(
-                'https://form.jotform.com/230793275000449',
-                'blank',
-                'scrollbars=yes,
-                toolbar=no,
-                width=700,
-                height=500'
-              )
-            )
-          ">
-              Feedback Form
-            </a></button>
+        <div id="contact-section-two-div">
+          <div id="section-two-img-div">
+            <img :src="feedback" class="feedback-image">
+          </div>
+          <div id="section-two-feedback-div">
+            <p class="section-header">Your feedback is valuable to us</p>
+            <p class="p1">If you have any feedback regarding any of your experiences with C.O.W. Soulmate please use our
+              feedback form. Your feedback will allow us to improve our service and give you a better experience next
+              time!
+            </p>
+            <div class="d-flex justify-content-center">
+              <button class="standard-btn"><a href="javascript:void(
+                  window.open(
+                    'https://form.jotform.com/230793275000449',
+                    'blank',
+                    'scrollbars=yes,
+                    toolbar=no,
+                    width=700,
+                    height=500'
+                  )
+                )
+              ">
+                  Feedback Form
+                </a></button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -122,8 +130,10 @@
   }
 
   .feedback-image {
-    display: block; 
+    display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
   }
 
   @media screen and (min-width: 1024px) {
@@ -134,6 +144,14 @@
 
     .contact-div {
       min-width: 350px;
+    }
+
+    #contact-section-two-div {
+      display: flex;
+    }
+
+    #section-two-feedback-div {
+      padding-left: 10px;
     }
   }
 </style>
