@@ -183,8 +183,6 @@
 </template>
 
 <style scoped>
-  #services-page-div {}
-
   #service-view-banner {
     background-image: url('../assets/service-banner.jpg');
     background-position: center;
