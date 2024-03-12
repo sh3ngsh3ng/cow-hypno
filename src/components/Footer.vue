@@ -2,14 +2,43 @@
     <footer>
         <div id="footer-div" class="pb-3">
             <div class="container">
-                <div id="footer-logo-div" class="d-flex justify-content-center p-3">
-                    <img id="footer-logo" src="../assets/footer-logo.png" />
+                <div id="footer-section-one">
+                    <div id="footer-section-one-logo-div">
+                        <div id="footer-logo-div" class="d-flex justify-content-center p-3">
+                            <img id="footer-logo" src="../assets/footer-logo.png" />
+                        </div>
+                        <div id="footer-name-div">
+                            <div>
+                                <div class="desktop-header">
+                                    <div class="hero-banner-big-letters">C.O.W. SOULMATE</div>
+                                </div>
+                                <div class="mobile-header">
+                                    <div class="hero-banner-big-letters mobile-header">C.O.W.</div>
+                                    <div class="hero-banner-big-letters mobile-header">SOULMATE</div>
+                                </div>
+                                <div class="hero-banner-small-letters mb-3">Take your first step to hypnosis</div>
+                            </div>
+                        </div>
 
+                    </div>
+
+                    <div id="footer-others-div">
+                        <div class="desktop-header">
+                            <div>Terms & Condition</div>
+                            <div>Copyright @ 2024, Vyunvyun Tan</div>
+                        </div>
+                        <div class="mobile-header">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="pb-3">Terms & Condition</div>
+                                <div class="pb-3">Copyright @ 2024, Vyunvyun Tan</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="hero-banner-big-letters normal-line-height">C.O.W. <br>SOULMATE</div>
-                <div class="hero-banner-small-letters mb-3">Take your first step to hypnosis</div>
-                <div class="pb-3">Terms & Condition</div>
-                <div class="pb-3">Copyright @ 2024, Vyunvyun Tan</div>
+
+
+
+
                 <div class="white-line"></div>
                 <div class="pb-3">Follow Us</div>
                 <div id="footer-social-div">
@@ -22,8 +51,6 @@
                                 d="M49.9702 18.9056H43.1777C39.1468 18.9056 34.6632 20.6341 34.6632 26.5915C34.6829 28.6672 34.6632 30.6552 34.6632 32.8925H30V40.4583H34.8075V62.2389H43.6416V40.3146H49.4724L50 32.8713H43.4894C43.4894 32.8713 43.504 29.5602 43.4894 28.5986C43.4894 26.2444 45.892 26.3793 46.0365 26.3793C47.1799 26.3793 49.4029 26.3827 49.9736 26.3793V18.9056H49.9702Z"
                                 fill="#81D1FE" />
                         </svg>
-
-
                         <!-- tiktok -->
                         <svg @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')"
                             width="60" height="60" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,6 +110,14 @@
 
 
 <style scoped>
+    .mobile-header {
+        display: block;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+
     #footer-div {
         min-height: 30vh;
         background-color: #81D1FE;
@@ -107,5 +142,29 @@
         border: 1px solid white;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+
+    @media screen and (min-width: 1024px) {
+        #footer-section-one {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mobile-header {
+            display: none;
+        }
+
+        .desktop-header {
+            display: block;
+        }
+
+        #footer-name-div {
+            display: flex;
+            align-items: center;
+        }
+
+        #footer-section-one-logo-div {
+            display: flex;
+        }
     }
 </style>
