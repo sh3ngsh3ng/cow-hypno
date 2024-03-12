@@ -10,7 +10,7 @@
 - Refactor the SVGs in the file (major)
 - Add in pages for the diff modalities (major) - in progress
 - ~~Footer navigations (minor)~~
-- Footer for Laptop (major) - in progress
+- ~~Footer for Laptop (major)~~
 - Standardize Banner (minor)
 - ~~Close navbar on toggle (minor) [Reference](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click)~~
 - Banner image takes a while to load (major) [Reference](https://www.thewebmaster.com/progressive-jpegs/)
