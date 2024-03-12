@@ -35,9 +35,7 @@
                                 <div class="hero-banner-small-letters mb-3">Take your first step to hypnosis</div>
                             </div>
                         </div>
-
                     </div>
-
                     <div id="footer-others-div">
                         <div class="desktop-header">
                             <div>Terms & Condition</div>
@@ -51,46 +49,47 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
                 <div class="white-line"></div>
-                <div class="pb-3">Follow Us</div>
-                <div id="footer-social-div">
-                    <div class="socials-logo-div d-flex justify-content-between mb-3">
-                        <!-- facebook -->
-                        <img :src="facebook" @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')">
-                        
-                        <!-- tiktok -->
-                        <img :src="tiktok" @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')">
+                
+                <div id="footer-site-map-div">
+                    <div id="footer-social-div">
+                        <div class="footer-header-title text-center m-3">Follow Us</div>
+                        <div class="socials-logo-div d-flex justify-content-around mb-3">
+                            <!-- facebook -->
+                            <img :src="facebook" @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')" class="footer-social-logo">
+                      
+                            <!-- tiktok -->
+                            <img :src="tiktok" @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')" class="footer-social-logo">
 
-                        <!-- instagram -->
-                        <img :src="instagram" @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')">
+                            <!-- instagram -->
+                            <img :src="instagram" @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')" class="footer-social-logo">
 
+                        </div>
+                    </div>
+                    <div class="white-line mobile-header"></div>
+                    <div id="footer-menu-div">
+                        <div class="footer-header-title text-center m-3">Menu</div>
+                        <div class="text-center m-3" @click="$sharedMethods.navigateTo('/')">Home</div>
+                        <div class="text-center m-3" @click="$sharedMethods.navigateTo('/about')">About Us</div>
+                        <div class="text-center m-3" @click="$sharedMethods.navigateTo('/services')">Our Services</div>
+                        <div class="text-center m-3" @click="$sharedMethods.navigateTo('/contact')">Contact Us</div>
+                        <div class="text-center m-3" @click="$sharedMethods.navigateTo('/book')">Book Your Session</div>
+                    </div>
+                    <div class="white-line mobile-header"></div>
+                    <div id="footer-contact-us-div">
+                        <div class="footer-header-title text-center m-3">Contact Us</div>
+                        <div class="text-center m-3">+65 9109 9629</div>
+                    </div>
+                    <div class="white-line mobile-header"></div>
+                    <div id="footer-forms-div">
+                        <div class="footer-header-title text-center m-3" @click="$sharedMethods.openConsultWidget()">
+                            Feedback Form</div>
+                        <div class="footer-header-title text-center m-3" @click="$sharedMethods.bookSessionWidget()">
+                            Consent
+                            Form</div>
                     </div>
                 </div>
-                <div class="white-line"></div>
-                <div id="footer-menu-div">
-                    <div class="footer-header-title text-center m-3">Menu</div>
-                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/')">Home</div>
-                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/about')">About Us</div>
-                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/services')">Our Services</div>
-                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/contact')">Contact Us</div>
-                    <div class="text-center m-3" @click="$sharedMethods.navigateTo('/book')">Book Your Session</div>
-                </div>
-                <div class="white-line"></div>
-                <div id="footer-contact-us-div">
-                    <div class="footer-header-title text-center m-3">Contact Us</div>
-                    <div class="text-center m-3">+65 9109 9629</div>
-                </div>
-                <div class="white-line"></div>
-                <div id="footer-forms-div">
-                    <div class="footer-header-title text-center m-3" @click="$sharedMethods.openConsultWidget()">
-                        Feedback Form</div>
-                    <div class="footer-header-title text-center m-3" @click="$sharedMethods.bookSessionWidget()">Consent
-                        Form</div>
-                </div>
+
             </div>
         </div>
     </footer>
@@ -153,6 +152,19 @@
 
         #footer-section-one-logo-div {
             display: flex;
+        }
+
+        #footer-others-div {
+            display: flex;
+            align-items: center;
+        }
+
+        #footer-site-map-div {
+            display: flex;
+        }
+
+        .footer-social-logo {
+            height: 50px;
         }
     }
 </style>
