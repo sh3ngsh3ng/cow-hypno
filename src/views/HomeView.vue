@@ -1,21 +1,21 @@
 <script>
-    import homeSecionOneLogo from '@/assets/svg/home-view/home-section-one-logo.svg';
-    import hypnosis from '@/assets/svg/home-view/hypnosis.svg';
-    import hypnoart from '@/assets/svg/home-view/hypnoart.svg';
-    import hypnodance from '@/assets/svg/home-view/hypnodance.svg';
-    import consultation from '@/assets/svg/base/consultation.svg';
+  import homeSecionOneLogo from '@/assets/svg/home-view/home-section-one-logo.svg';
+  import hypnosis from '@/assets/svg/home-view/hypnosis.svg';
+  import hypnoart from '@/assets/svg/home-view/hypnoart.svg';
+  import hypnodance from '@/assets/svg/home-view/hypnodance.svg';
+  import consultation from '@/assets/svg/base/consultation.svg';
 
-    export default {
-        data() {
-            return {
-                homeSecionOneLogo: homeSecionOneLogo,
-                hypnosis: hypnosis,
-                hypnoart: hypnoart,
-                hypnodance: hypnodance,
-                consultation: consultation
-            }
-        }
+  export default {
+    data() {
+      return {
+        homeSecionOneLogo: homeSecionOneLogo,
+        hypnosis: hypnosis,
+        hypnoart: hypnoart,
+        hypnodance: hypnodance,
+        consultation: consultation
+      }
     }
+  }
 </script>
 
 <template>
@@ -31,7 +31,7 @@
     <section class="container">
       <p class="section-header mobile-header">What do we mean by 'Soulmate'</p>
       <div id="home-page-section-one">
-        <div id="home-section-one-logo-div" class="d-flex justify-content-center">
+        <div id="home-section-one-logo-div" class="d-flex justify-content-center mb-3">
           <img :src="homeSecionOneLogo" id="home-section-one-logo">
         </div>
         <div class="section-text-desktop-div">
@@ -157,6 +157,10 @@
   }
 
   #home-section-one-logo {
+    max-width: 350px;
+  }
+
+  #home-section-three-logo {
     max-width: 350px;
   }
 

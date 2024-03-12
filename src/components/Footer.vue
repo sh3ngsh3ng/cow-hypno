@@ -50,19 +50,25 @@
                     </div>
                 </div>
                 <div class="white-line"></div>
-                
+
                 <div id="footer-site-map-div">
                     <div id="footer-social-div">
                         <div class="footer-header-title text-center m-3">Follow Us</div>
                         <div class="socials-logo-div d-flex justify-content-around mb-3">
                             <!-- facebook -->
-                            <img :src="facebook" @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')" class="footer-social-logo">
-                      
+                            <img :src="facebook"
+                                @click="$sharedMethods.redirectTo('https://www.facebook.com/profile.php?id=100089680964056&mibextid=ZbWKwL')"
+                                class="footer-social-logo">
+
                             <!-- tiktok -->
-                            <img :src="tiktok" @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')" class="footer-social-logo">
+                            <img :src="tiktok"
+                                @click="$sharedMethods.redirectTo('https://www.tiktok.com/@c.o.w.soulmate?_t=8jSYa5V9eMC&_r=1')"
+                                class="footer-social-logo">
 
                             <!-- instagram -->
-                            <img :src="instagram" @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')" class="footer-social-logo">
+                            <img :src="instagram"
+                                @click="$sharedMethods.redirectTo('https://www.instagram.com/c.o.w.soulmate?igsh=MTc4OGNzdHRlcmR3Mw==')"
+                                class="footer-social-logo">
 
                         </div>
                     </div>
@@ -152,6 +158,7 @@
 
         #footer-section-one-logo-div {
             display: flex;
+            justify-content: space-around;
         }
 
         #footer-others-div {
@@ -161,10 +168,15 @@
 
         #footer-site-map-div {
             display: flex;
+            justify-content: space-around;
         }
 
         .footer-social-logo {
             height: 50px;
+        }
+
+        .footer-social-logo {
+            width: 30%;
         }
     }
 </style>
