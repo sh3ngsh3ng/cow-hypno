@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <div id="services-page-div">
     <div id="service-view-banner" class="hero-banner">
@@ -127,7 +123,7 @@
                 their
                 ability to fully engage in lifestyle activities.
               </p>
-              <button class="service-btn standard-btn">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnosis')">Read more here</button>
             </div>
           </div>
           <!-- HypnoArt Therapy Card -->
