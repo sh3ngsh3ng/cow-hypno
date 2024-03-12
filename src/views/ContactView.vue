@@ -160,7 +160,7 @@
     }
 
     .contact-div {
-      max-width: 250px;
+      min-width: 350px;
     }
   }
 </style>
