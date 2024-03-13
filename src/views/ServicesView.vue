@@ -25,8 +25,10 @@
 <template>
   <div id="services-page-div">
     <div id="service-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-3 mb-3">WHAT WE OFFER</div>
-      <div class="hero-banner-small-letters mb-3">How we can lead you to a happier and healthier life.</div>
+      <div>
+        <div class="hero-banner-big-letters">WHAT WE OFFER</div>
+        <div class="hero-banner-small-letters">How we can lead you to a happier and healthier life.</div>
+      </div>
     </div>
     <div class="container">
       <section>
@@ -187,11 +189,18 @@
     background-image: url('../assets/service-banner.jpg');
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #service-section-one-logo {
     width: 100%;
     max-width: 350px;
+  }
+
+  .hero-banner-big-letters {
+    line-height: 50px;
   }
 
   @media screen and (min-width: 768px) {
@@ -257,6 +266,10 @@
 
     #service-section-three-logo {
       width: 30vw;
+    }
+
+    .hero-banner-big-letters {
+      line-height: 100px;
     }
   }
 

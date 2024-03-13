@@ -26,13 +26,13 @@
                         <div id="footer-name-div">
                             <div>
                                 <div class="desktop-header">
-                                    <div class="hero-banner-big-letters">C.O.W. SOULMATE</div>
+                                    <div class="footer-big-letters">C.O.W. SOULMATE</div>
                                 </div>
                                 <div class="mobile-header">
-                                    <div class="hero-banner-big-letters mobile-header">C.O.W.</div>
-                                    <div class="hero-banner-big-letters mobile-header">SOULMATE</div>
+                                    <div class="footer-big-letters mobile-header">C.O.W.</div>
+                                    <div class="footer-big-letters mobile-header">SOULMATE</div>
                                 </div>
-                                <div class="hero-banner-small-letters mb-3">Take your first step to hypnosis</div>
+                                <div class="footer-small-letters mb-3">Take your first step to hypnosis</div>
                             </div>
                         </div>
                     </div>
@@ -135,6 +135,27 @@
         border: 1px solid white;
         margin-top: 1em;
         margin-bottom: 1em;
+    }
+
+    .footer-big-letters {
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        line-height: 48px;
+        padding: 5px;
+    }
+
+    .footer-small-letters {
+        font-family: Solway;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        line-height: 24px;
+        padding: 5px;
     }
 
     @media screen and (min-width: 1024px) {

@@ -14,7 +14,7 @@
 - Standardize Banner (minor)
 - ~~Close navbar on toggle (minor) [Reference](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click)~~
 - Banner image takes a while to load (major) [Reference](https://www.thewebmaster.com/progressive-jpegs/)
-- Tab Logo (minor)
+- ~~Tab Logo (minor)~~
 - ~~Contact Page Laptop (major)~~
 
 # Deployment

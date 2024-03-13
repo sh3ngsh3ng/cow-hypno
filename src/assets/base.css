@@ -81,18 +81,21 @@ section {
     font-family: "Cinzel Decorative", serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 48px;
+    font-size: 50px;
     color: white;
     text-align: center;
+    line-height: 28.8px;
+    padding: 5px;
 }
 
 .hero-banner-small-letters {
     font-family: Solway;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-align: center;
-    line-height: 28.8px;
+    line-height: 24px;
+    padding: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -100,12 +103,32 @@ section {
         min-height: 650px;
     }
 
+    .hero-banner-big-letters {
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+    .hero-banner-small-letters {
+        /* font-size: 32px; */
+        font-size: 24px;
+        line-height: 48px;
+    }
 }
 
 
 @media screen and (min-width: 1024px) {
     .service-card {
         min-height: 550px;
+    }
+
+    .hero-banner-big-letters {
+        font-size: 96px;
+        line-height: 96px;
+    }
+
+    .hero-banner-small-letters {
+        font-size: 36px;
+        line-height: 48px;
     }
 
 }

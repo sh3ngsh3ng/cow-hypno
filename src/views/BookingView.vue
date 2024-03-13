@@ -2,16 +2,6 @@
   import consultation from '@/assets/svg/base/consultation.svg';
 
   export default {
-    // methods: {
-    //   openConsultWidget() {
-    //     Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/free_consultation' });
-    //     return false;
-    //   },
-    //   bookSessionWidget() {
-    //     Calendly.initPopupWidget({ url: 'https://calendly.com/cowsoulmate/booking-sessions' });
-    //     return false;
-    //   }
-    // }
     data() {
       return {
         consultation: consultation
@@ -24,8 +14,10 @@
   <div class="calendly-embed" style="height:auto;" data-auto-load="false"></div>
   <div id="booking-page-div">
     <div id="booking-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-2 mb-2">LETS GET STARTED</div>
-      <div class="hero-banner-small-letters">Find a slot for your consultation</div>
+      <div>
+        <div class="hero-banner-big-letters">LETS GET STARTED</div>
+        <div class="hero-banner-small-letters">Find a slot for your consultation</div>
+      </div>
     </div>
     <section>
       <p class="section-header">
@@ -57,6 +49,9 @@
     background-image: url('../assets/booking-banner.jpg');
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .booking-image {
@@ -64,5 +59,15 @@
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
+  }
+
+  .hero-banner-big-letters {
+    line-height: 50px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .hero-banner-big-letters {
+      line-height: 100px;
+    }
   }
 </style>

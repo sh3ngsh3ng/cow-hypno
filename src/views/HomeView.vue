@@ -21,11 +21,13 @@
 <template>
   <div id="home-page-div">
     <div id="home-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-2 mb-2">Welcome</div>
-      <div class="hero-banner-small-letters mb-3">Take your first step to happiness here at C.O.W. Soulmate!</div>
-      <div id="hero-consult-btn-div" class="mt-3 pb-3"><button @click="$sharedMethods.openConsultWidget()"
-          class="action-btn">Book a Free consultation
-          now</button>
+      <div>
+        <div class="hero-banner-big-letters">Welcome</div>
+        <div class="hero-banner-small-letters">Take your first step to happiness here at C.O.W. Soulmate!</div>
+        <div id="hero-consult-btn-div" class="m"><button @click="$sharedMethods.openConsultWidget()"
+            class="action-btn">Book a Free consultation
+            now</button>
+        </div>
       </div>
     </div>
     <section class="container">
@@ -154,6 +156,9 @@
     background-position: center calc(50% - 60px);
     background-size: 100%;
     background-repeat: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #home-section-one-logo {

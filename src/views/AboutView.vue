@@ -13,8 +13,10 @@
 <template>
   <div id="about-page-div">
     <div id="about-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-3 mb-3">C.O.W. <br>SOULMATE</div>
-      <div class="hero-banner-small-letters mb-3">A little more about who we are.</div>
+      <div>
+        <div class="hero-banner-big-letters">C.O.W. SOULMATE</div>
+        <div class="hero-banner-small-letters">A little more about who we are.</div>
+      </div>
     </div>
     <section>
       <p class="section-header">Our mission</p>
@@ -64,6 +66,9 @@
     background-image: url('../assets/about-banner.jpg');
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .help-image {
@@ -71,5 +76,15 @@
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
+  }
+
+  .hero-banner-big-letters {
+    line-height: 50px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .hero-banner-big-letters {
+      line-height: 100px;
+    }
   }
 </style>

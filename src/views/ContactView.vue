@@ -25,8 +25,10 @@
 <template>
   <div id="contact-page-div">
     <div id="contact-view-banner" class="hero-banner">
-      <div class="hero-banner-big-letters pt-3 mb-3">GET IN TOUCH WITH US</div>
-      <div class="hero-banner-small-letters mb-3">Our contact details and social media</div>
+      <div>
+        <div class="hero-banner-big-letters">GET IN TOUCH WITH US</div>
+        <div class="hero-banner-small-letters">Our contact details and social media</div>
+      </div>
     </div>
     <div class="container">
       <section>
@@ -127,6 +129,9 @@
     background-image: url('../assets/contact-banner.jpg');
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .feedback-image {
@@ -134,6 +139,16 @@
     margin: 0 auto;
     width: 100%;
     max-width: 350px;
+  }
+
+  .hero-banner-big-letters {
+    line-height: 50px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-banner-big-letters {
+      line-height: 80px;
+    }
   }
 
   @media screen and (min-width: 1024px) {
@@ -152,6 +167,10 @@
 
     #section-two-feedback-div {
       padding-left: 10px;
+    }
+
+    .hero-banner-big-letters {
+      line-height: 100px;
     }
   }
 </style>
