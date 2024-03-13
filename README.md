@@ -18,6 +18,7 @@
 - ~~Contact Page Laptop (major)~~
 - Simple SEO (minor)
 - Add container and standardize width for all pages (minor)
+- Set up simple process for easy edit for client (minor)
 
 # Deployment
 - Staging: [cow-soulmate-demo.netlify.app](cow-soulmate-demo.netlify.app)

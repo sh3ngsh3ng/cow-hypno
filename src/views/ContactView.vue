@@ -152,13 +152,17 @@
   }
 
   @media screen and (min-width: 1024px) {
+    .feedback-image {
+      width: 30vw;
+    }
+
     #contact-main-div {
       display: flex;
       justify-content: space-around;
     }
 
     .contact-div {
-      min-width: 350px;
+      min-width: 30%;
     }
 
     #contact-section-two-div {
