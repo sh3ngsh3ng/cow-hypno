@@ -69,9 +69,8 @@
     <section class="container">
       <p class="section-header">Our services</p>
       <p class="p1">
-        Brief description of therapy and services provided. Lorem ipsum dolor sit amet consectetur. Lacus amet posuere
-        volutpat tristique mauris donec est ut. Magnis molestie ipsum odio nulla tortor orci. Etiam in sit rhoncus
-        vulputate a vitae. Pretium dui scelerisque id sodales orci.
+        We offer a variety of holistic wellness services. These allow individuals to "Create Own Wellness" by tailoring
+        to clients' needs, promoting overall well-being.
       </p>
       <p class="p2">
         Here are three of our most popular services:

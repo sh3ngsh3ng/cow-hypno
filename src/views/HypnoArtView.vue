@@ -1,19 +1,18 @@
 <script>
-    import brief from '@/assets/svg/hypnosis-view/brief.svg';
-    import hypnotherapy from '@/assets/svg/hypnosis-view/hypnotherapy.svg';
-    import offer from '@/assets/svg/hypnosis-view/offer.svg';
+    import hypnoart from "@/assets/svg/hypnoart-view/hypnoart.svg"
+    import offer from "@/assets/svg/hypnoart-view/offer.svg"
     import consultation from '@/assets/svg/base/consultation.svg';
 
     export default {
         data() {
             return {
-                brief: brief,
-                hypnotherapy: hypnotherapy,
-                offer: offer,
-                consultation: consultation
+                hypnoart,
+                offer,
+                consultation
             }
         }
     }
+
 </script>
 
 <template>
@@ -28,41 +27,14 @@
             <div class="therapy-tab">
                 <div class="services-tab" @click="$sharedMethods.navigateTo('/services')">Services</div>
                 <div>></div>
-                <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnosis')">Hypnosis Therapy</div>
+                <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnosis')">HypnoArt</div>
             </div>
-
-            <!-- <section class="hypnosis-section">
-                <div class="desktop-view">
-                    <img :src="brief" class="hypnosis-image">
-                </div>
-                <div class="hypnosis-section-left">
-                    <p class="section-header">The brief on hypnosis</p>
-                    <div class="mobile-view">
-                        <img :src="brief" class="hypnosis-image">
-                    </div>
-                    <p class="p1">
-                        Hypnosis is a powerful technique that allows you to open the doorway to your subconscious mind
-                        with your
-                        full consent by utilizing your focused attention and relaxation. In this relaxed state, you
-                        become more
-                        receptive to positive suggestions and can use your imagination to manifest positive change more
-                        effectively.
-                    </p>
-                    <p class="p1">
-                        Although generally safe, hypnosis should only be conducted by a licensed and trained
-                        professional.
-                        Rest assured that a competent hypnotherapist should be able to help you manage any negative
-                        experiences or
-                        feelings that may arise during the hypnosis therapy session with ease.
-                    </p>
-                </div>
-            </section> -->
 
             <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
-                    <p class="section-header">What is Hypnotherapy?</p>
+                    <p class="section-header">What is HypnoArt?</p>
                     <div class="mobile-view">
-                        <img :src="hypnotherapy" class="hypnosis-image">
+                        <img :src="hypnoart" class="hypnosis-image">
                     </div>
                     <p class="p1">
                         Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
@@ -79,7 +51,7 @@
                 </div>
 
                 <div class="desktop-view">
-                    <img :src="hypnotherapy" class="hypnosis-image">
+                    <img :src="hypnoart" class="hypnosis-image">
                 </div>
             </section>
 
@@ -133,31 +105,7 @@
     </div>
 </template>
 
-<style scoped>
-    #hypnosis-therapy-banner {
-        background-image: url('../assets/hypnosis-therapy-banner.jpeg');
-        background-position: 50% 52%;
-        background-size: cover;
-    }
-
-    /* #therapy-tab{
-        display: flex;
-        gap: 10px;
-        margin: 20px 0px 0px 20px;
-        color: #5E5E5E;
-        font-size: 16px
-    }
-
-    #services-tab:hover{
-        color: #08ACF2;
-    }
-
-    #hypnosis-therapy-tab{
-        color: #08ACF2;
-    } */
-
-
-
+<style>
     @media screen and (max-width: 767px) {
         section {
             padding: 40px 20px 0px 20px;
@@ -222,6 +170,4 @@
             padding-right: 20px;
         }
     }
-
-    @media screen and (min-width: 1280px) {}
 </style>

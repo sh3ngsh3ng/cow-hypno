@@ -98,6 +98,29 @@ section {
     padding: 5px;
 }
 
+.therapy-tab{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px 0px 20px;
+    color: #5E5E5E;
+    font-size: 16px
+}
+
+.services-tab:hover{
+    color: #08ACF2;
+}
+
+.selected-therapy-tab{
+    color: #08ACF2;
+}
+
+@media screen and (max-width: 767px) { 
+    .hypnosis-image {
+        width: 85vw;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .service-card {
         min-height: 650px;
@@ -112,6 +135,11 @@ section {
         /* font-size: 32px; */
         font-size: 24px;
         line-height: 48px;
+    }
+
+    .hypnosis-image {
+        width: 35vw;
+        height: auto;
     }
 }
 

@@ -5,6 +5,10 @@ import BookingView from "@/views/BookingView.vue"
 import ContactView from "@/views/ContactView.vue"
 import ServicesView from "@/views/ServicesView.vue"
 import HypnosisView from "@/views/HypnosisView.vue"
+import HypnoArtView from "@/views/HypnoArtView.vue";
+import HypnoDanceView from "@/views/HypnoDanceView.vue";
+import HypnoWorkoutView from "@/views/HypnoWorkout.vue";
+import HealthCoachView from "@/views/HealthCoach.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,6 +46,26 @@ const router = createRouter({
       path: "/hypnosis",
       name: "hypnosis",
       component: HypnosisView
+    },
+    {
+      path: "/hypnoart",
+      name: "hypnoart",
+      component: HypnoArtView
+    },
+    {
+      path: "/hypnodance",
+      name: "hypnodance",
+      component: HypnoDanceView
+    },
+    {
+      path: "/hypnoworkout",
+      name: "hypnoworkout",
+      component: HypnoWorkoutView
+    },
+    {
+      path: "/healthcoach",
+      name: "healthcoach",
+      component: HealthCoachView
     }
   ]
 })
