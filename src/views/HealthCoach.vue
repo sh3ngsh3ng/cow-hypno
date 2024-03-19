@@ -1,12 +1,26 @@
 <script>
+    import healthcoach from '@/assets/svg/healthcoach-view/healthcoach.svg';
+    import offer from '@/assets/svg/healthcoach-view/offer.svg';
+    import consultation from '@/assets/svg/base/consultation.svg';
+    export default {
+        data() {
+            return {
+                healthcoach,
+                offer,
+                consultation
+            }
+        }
+    }
 
 </script>
 
 <template>
-    <div id="hypnoart-page-div">
-        <div id="hypnoart-banner" class="hero-banner">
-            <div class="hero-banner-big-letters pt-3 mb-3">HYPNOSIS THERAPY</div>
-            <div class="hero-banner-small-letters mb-3">What is Hypnosis Therapy and what it can do for you</div>
+    <div id="healthcoach-page-div">
+        <div id="healthcoach-banner" class="hero-banner">
+            <div>
+                <div class="hero-banner-big-letters">HEALTH COACH</div>
+                <div class="hero-banner-small-letters">What is health coach and what it can do for you</div>
+            </div>
         </div>
 
         <div class="container">
@@ -19,9 +33,9 @@
 
             <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
-                    <p class="section-header">What is HypnoDance?</p>
+                    <p class="section-header">What is Health Coach?</p>
                     <div class="mobile-view">
-                        <!-- <img :src="hypnoart" class="hypnosis-image"> -->
+                        <img :src="healthcoach" class="hypnosis-image">
                     </div>
                     <p class="p1">
                         Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
@@ -38,7 +52,7 @@
                 </div>
 
                 <div class="desktop-view">
-                    <!-- <img :src="hypnoart" class="hypnosis-image"> -->
+                    <img :src="healthcoach" class="hypnosis-image">
                 </div>
             </section>
 
@@ -93,6 +107,15 @@
 </template>
 
 <style>
+    #healthcoach-banner {
+        background-image: url('../assets/healthcoach-banner.jpg');
+        background-position: 50% 52%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     @media screen and (max-width: 767px) {
         section {
             padding: 40px 20px 0px 20px;
