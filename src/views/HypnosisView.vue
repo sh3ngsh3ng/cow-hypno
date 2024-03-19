@@ -19,8 +19,10 @@
 <template>
     <div id="hypnosis-therapy-page-div">
         <div id="hypnosis-therapy-banner" class="hero-banner">
-            <div class="hero-banner-big-letters pt-3 mb-3">HYPNOSIS THERAPY</div>
-            <div class="hero-banner-small-letters mb-3">What is Hypnosis Therapy and what it can do for you</div>
+            <div>
+                <div class="hero-banner-big-letters">HYPNOSIS THERAPY</div>
+                <div class="hero-banner-small-letters">What is Hypnosis Therapy and what it can do for you</div>
+            </div>
         </div>
 
         <div class="container">
@@ -138,6 +140,9 @@
         background-image: url('../assets/hypnosis-therapy-banner.jpeg');
         background-position: 50% 52%;
         background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* #therapy-tab{

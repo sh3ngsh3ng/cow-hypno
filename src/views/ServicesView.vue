@@ -129,7 +129,8 @@
                 new ways to cope with challenges. This approach can have positive effects on mental health and
                 well-being.
               </p>
-              <button class="service-btn standard-btn">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnoart')">Read more
+                here</button>
             </div>
           </div>
           <!-- HypnoDance Therapy Card -->
@@ -145,7 +146,8 @@
                 well-being, and personal growth. Working with skilled practitioners ensures safe and effective
                 application
                 for healing, self-expression, and teamwork.</p>
-              <button class="service-btn standard-btn">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnodance')">Read more
+                here</button>
             </div>
           </div>
           <!-- HypnoWorkout Therapy Card -->
@@ -159,7 +161,8 @@
                 The Mindfulness Workout combines hypnosis and exercise to enhance the mind-body connection, reduce
                 stress,
                 and improve overall well-being through present-moment awareness, relaxation, and mental clarity.</p>
-              <button class="service-btn standard-btn">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnoworkout')">Read more
+                here</button>
             </div>
           </div>
           <!-- Health Coach -->
@@ -174,7 +177,8 @@
                 accountability. They focus on nutrition, exercise, stress management, sleep, and behavior change to
                 improve
                 overall well-being.</p>
-              <button class="service-btn standard-btn">Read more here</button>
+              <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/healthcoach')">Read more
+                here</button>
             </div>
           </div>
         </div>

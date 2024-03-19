@@ -85,7 +85,8 @@
             able to help you overcome any psychological barriers or self-limiting beliefs that may be inhibiting their
             ability to fully engage in lifestyle activities.
           </p>
-          <button class="service-btn standard-btn">Read more here</button>
+          <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnosis')">Read more
+            here</button>
         </div>
         <!-- HypnoArt Therapy Card -->
         <div class="service-card">
@@ -95,7 +96,8 @@
             By combining hypnotherapy and art, individuals can gain insight into their thoughts and emotions and find
             new ways to cope with challenges. This approach can have positive effects on mental health and well-being.
           </p>
-          <button class="service-btn standard-btn">Read more here</button>
+          <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnoart')">Read more
+            here</button>
         </div>
         <!-- HypnoDance Therapy Card -->
         <div class="service-card">
@@ -105,7 +107,8 @@
             Combining hypnosis and fusion dance offers a transformative experience, enhancing mind-body connection,
             well-being, and personal growth. Working with skilled practitioners ensures safe and effective application
             for healing, self-expression, and teamwork.</p>
-          <button class="service-btn standard-btn">Read more here</button>
+          <button class="service-btn standard-btn" @click="$sharedMethods.navigateTo('/hypnodance')">Read more
+            here</button>
         </div>
       </div>
       <div class="d-flex justify-content-center">
