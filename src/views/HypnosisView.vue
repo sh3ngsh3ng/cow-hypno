@@ -33,7 +33,7 @@
                 <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnosis')">Hypnosis Therapy</div>
             </div>
 
-            <!-- <section class="hypnosis-section">
+            <section class="hypnosis-section">
                 <div class="desktop-view">
                     <img :src="brief" class="hypnosis-image">
                 </div>
@@ -58,7 +58,7 @@
                         feelings that may arise during the hypnosis therapy session with ease.
                     </p>
                 </div>
-            </section> -->
+            </section>
 
             <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
