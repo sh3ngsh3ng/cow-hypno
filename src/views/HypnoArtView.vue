@@ -16,10 +16,12 @@
 </script>
 
 <template>
-    <div id="hypnosis-therapy-page-div">
-        <div id="hypnosis-therapy-banner" class="hero-banner">
-            <div class="hero-banner-big-letters pt-3 mb-3">HYPNOSIS THERAPY</div>
-            <div class="hero-banner-small-letters mb-3">What is Hypnosis Therapy and what it can do for you</div>
+    <div id="hypnoart-page-div">
+        <div id="hypnoart-banner" class="hero-banner">
+            <div>
+                <div class="hero-banner-big-letters">HYPNOART THERAPY</div>
+                <div class="hero-banner-small-letters">What is HypnoArt therapy and what it can do for you</div>
+            </div>
         </div>
 
         <div class="container">
@@ -106,6 +108,15 @@
 </template>
 
 <style>
+    #hypnoart-banner {
+        background-image: url('../assets/hypnoart-banner.jpg');
+        background-position: 50% 52%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     @media screen and (max-width: 767px) {
         section {
             padding: 40px 20px 0px 20px;

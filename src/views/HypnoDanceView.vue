@@ -1,12 +1,25 @@
 <script>
-
+    import hypnodance from '@/assets/svg/hypnodance-view/hypnodance.svg';
+    import offer from '@/assets/svg/hypnodance-view/offer.svg';
+    import consultation from '@/assets/svg/base/consultation.svg';
+    export default {
+        data() {
+            return {
+                hypnodance,
+                offer,
+                consultation
+            }
+        }
+    }
 </script>
 
 <template>
-    <div id="hypnoart-page-div">
-        <div id="hypnoart-banner" class="hero-banner">
-            <div class="hero-banner-big-letters pt-3 mb-3">HYPNOSIS THERAPY</div>
-            <div class="hero-banner-small-letters mb-3">What is Hypnosis Therapy and what it can do for you</div>
+    <div id="hypnodance-page-div">
+        <div id="hypnodance-banner" class="hero-banner">
+            <div>
+                <div class="hero-banner-big-letters">HYPNODANCE</div>
+                <div class="hero-banner-small-letters">What is Hypnodance Therapy and what it can do for you</div>
+            </div>
         </div>
 
         <div class="container">
@@ -14,14 +27,14 @@
             <div class="therapy-tab">
                 <div class="services-tab" @click="$sharedMethods.navigateTo('/services')">Services</div>
                 <div>></div>
-                <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnosis')">HypnoDance</div>
+                <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnodance')">HypnoDance</div>
             </div>
 
             <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
                     <p class="section-header">What is HypnoDance?</p>
                     <div class="mobile-view">
-                        <!-- <img :src="hypnoart" class="hypnosis-image"> -->
+                        <img :src="hypnodance" class="hypnosis-image">
                     </div>
                     <p class="p1">
                         Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
@@ -38,7 +51,7 @@
                 </div>
 
                 <div class="desktop-view">
-                    <!-- <img :src="hypnoart" class="hypnosis-image"> -->
+                    <img :src="hypnodance" class="hypnosis-image">
                 </div>
             </section>
 
@@ -93,7 +106,24 @@
 </template>
 
 <style>
+    #hypnodance-banner {
+        background-image: url('../assets/hypnodance-banner.jpg');
+        background-position: 50% 52%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     @media screen and (max-width: 767px) {
+        .hero-banner-big-letters {
+            font-size: 35px;
+        }
+
+        .hero-banner-small-letters {
+            font-size: 20px;
+        }
+
         section {
             padding: 40px 20px 0px 20px;
         }
