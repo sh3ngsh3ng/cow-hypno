@@ -90,9 +90,21 @@
                     <div id="footer-forms-div">
                         <div class="footer-header-title text-center m-3" @click="$sharedMethods.openConsultWidget()">
                             Feedback Form</div>
-                        <div class="footer-header-title text-center m-3" @click="$sharedMethods.bookSessionWidget()">
-                            Consent
-                            Form</div>
+                        <div class="footer-header-title text-center m-3">
+                            <a class="footer-header-title" style="text-decoration: none;" href="javascript:void(
+                                    window.open(
+                                        'https://form.jotform.com/230803205747452',
+                                        'blank',
+                                        'scrollbars=yes,
+                                        toolbar=no,
+                                        width=700,
+                                        height=500'
+                                    )
+                                    )
+                                ">
+                                Consent Form
+                            </a>
+                        </div>
                     </div>
                 </div>
 

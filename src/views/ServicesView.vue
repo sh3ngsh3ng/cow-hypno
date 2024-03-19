@@ -47,7 +47,8 @@
               inquiries. The free pre-consultation builds trust and ensures both parties are comfortable before starting
               therapy session.
             </p>
-            <div class="d-flex justify-content-center"><button class="standard-btn">Book your free consultation
+            <div class="d-flex justify-content-center"><button class="standard-btn"
+                @click="$sharedMethods.openConsultWidget()">Book your free consultation
                 now!</button>
             </div>
           </div>
@@ -91,7 +92,19 @@
               arise during the hypnosis therapy session with ease.
             </p>
             <d class="d-flex justify-content-center">
-              <button class="standard-btn">View form here</button>
+              <button class="standard-btn"><a style="text-decoration: none;" href="javascript:void(
+                window.open(
+                    'https://form.jotform.com/230803205747452',
+                    'blank',
+                    'scrollbars=yes,
+                    toolbar=no,
+                    width=700,
+                    height=500'
+                )
+                )
+            ">
+                  View Form Here
+                </a></button>
             </d>
           </div>
         </div>
