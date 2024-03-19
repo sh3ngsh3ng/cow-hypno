@@ -134,10 +134,6 @@
         font-weight: 500;
     }
 
-    #footer-logo-div {
-        /* background-image: ; */
-    }
-
     .normal-line-height {
         line-height: normal;
     }
