@@ -8,7 +8,7 @@
 
 # Tickets
 - ~~Refactor the SVGs in the file (major)~~
-- Add in pages for the diff modalities (major) - in progress
+- ~~Add in pages for the diff modalities (major) - in progress~~
 - ~~Footer navigations (minor)~~
 - ~~Footer for Laptop (major)~~
 - ~~Standardize Banner (minor)~~
