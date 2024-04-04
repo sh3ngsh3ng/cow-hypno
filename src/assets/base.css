@@ -166,3 +166,9 @@ section {
         max-height: 700px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .max-h-img {
+        max-height: 500px;
+    }
+}
