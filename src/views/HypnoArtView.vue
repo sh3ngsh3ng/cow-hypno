@@ -1,14 +1,20 @@
 <script>
+    import brief from '@/assets/svg/hypnosis-view/brief.svg';
     import hypnoart from "@/assets/svg/hypnoart-view/hypnoart.svg"
     import offer from "@/assets/svg/hypnoart-view/offer.svg"
+    import offerlg from "@/assets/svg/hypnoart-view/offer-lg.svg"
     import consultation from '@/assets/svg/base/consultation.svg';
+    import hypnoartlg from "@/assets/svg/hypnoart-view/hypnoart-lg.svg";
 
     export default {
         data() {
             return {
                 hypnoart,
                 offer,
-                consultation
+                consultation,
+                brief,
+                hypnoartlg,
+                offerlg
             }
         }
     }
@@ -31,6 +37,30 @@
                 <div>></div>
                 <div class="selected-therapy-tab" @click="$sharedMethods.navigateTo('/hypnosis')">HypnoArt</div>
             </div>
+            <section class="hypnosis-section">
+                <div class="desktop-view">
+                    <img :src="brief" class="hypnosis-image">
+                </div>
+                <div class="hypnosis-section-left">
+                    <p class="section-header">The brief on HypnoArt</p>
+                    <div class="mobile-view">
+                        <img :src="brief" class="hypnosis-image">
+                    </div>
+                    <p class="p1">
+                        HypnoArt therapy is a potent combination of hypnosis and art expression. After a transformative
+                        hypnosis session, individuals are free to explore their creativity in an art session. This
+                        approach helps individuals tap into their inner resources and safely navigate their emotions.
+                        Diving them into their subconscious, they can better comprehend their feelings and discover new
+                        self-expression avenues.
+                    </p>
+                    <p class="p1">
+                        Although generally safe, it's important to note that HypnoArt should only be conducted by
+                        qualified professionals who are trained in both hypnotherapy and art therapy techniques. Each
+                        session is tailored to the individual needs of the client, and outcomes may vary depending on
+                        the client's goals and experiences.
+                    </p>
+                </div>
+            </section>
 
             <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
@@ -39,21 +69,29 @@
                         <img :src="hypnoart" class="hypnosis-image">
                     </div>
                     <p class="p1">
-                        Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
-                        behaviors by accessing your subconscious mind. This is where habits and behaviors take root and
-                        persist, making it challenging to alter them independently.
+                        HypnoArt, a unique blend of hypnosis and art therapy, begins with a hypnosis session to induce
+                        focused attention and increased suggestibility, followed by art therapy.
                     </p>
                     <p class="p1">
-                        Remember that hypnotherapy should not replace medical treatment and should always be used
-                        together with other treatments as advised by a licensed medical professional. While hypnotherapy
-                        can be a useful tool for managing your mental health, it is not a one-size-fits-all solution.
-                        Each person’s situation is unique and a professional hypnotherapist can help determine if
-                        hypnotherapy is the right approach for you.
+                        Through this distinctive approach, individuals can gain valuable insights, experience emotional
+                        release, develop self-understanding, and enhance their creativity. The artwork they produce
+                        serves as a reflection of their inner world and personal journey.
+                    </p>
+                    <p class="p1">
+                        HypnoArt therapy offers benefits for individuals facing challenges like stress, anxiety, trauma,
+                        self-doubt, and emotional blockages. Through HypnoArt therapy, these challenges can be
+                        effectively addressed, leading to self-awareness, coping strategies, and personal
+                        transformation.
+                    </p>
+                    <p class="p1">
+                        HypnoArt therapy provides a safe and supportive environment for them to explore their creativity
+                        and emotions, gain a deeper understanding on themselves, and develop new ways of expressing
+                        themselves.
                     </p>
                 </div>
 
                 <div class="desktop-view">
-                    <img :src="hypnoart" class="hypnosis-image">
+                    <img :src="hypnoartlg" class="hypnosis-image max-h-img">
                 </div>
             </section>
 
@@ -64,21 +102,37 @@
                         <img :src="offer" class="hypnosis-image">
                     </div>
                     <p class="p1">
-                        Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
-                        behaviors by accessing your subconscious mind. This is where habits and behaviors take root and
-                        persist, making it challenging to alter them independently.
+                        HypnoArt is a holistic therapy approach that combines hypnosis and art. During a HypnoArt
+                        session, you are guided into a mild hypnotic state. This process helps you to tap into their
+                        subconscious and communicate through diverse art forms such as drawing, painting, sculpting, and
+                        more.
                     </p>
                     <p class="p1">
-                        Remember that hypnotherapy should not replace medical treatment and should always be used
-                        together with other treatments as advised by a licensed medical professional. While hypnotherapy
-                        can be a useful tool for managing your mental health, it is not a one-size-fits-all solution.
-                        Each person’s situation is unique and a professional hypnotherapist can help determine if
-                        hypnotherapy is the right approach for you.
+                        With the support of a skilled therapist, you will delve into your inner thoughts, emotions, and
+                        experiences whilst creating art. This method enables profound self-exploration, insight, and
+                        healing, as you can access and process subconscious thoughts and feelings that might be
+                        challenging to articulate verbally.
+                    </p>
+                    <p class="p1">
+                        Join our HypnoArt therapy helps you in your transformative journey.
+                    <ol>
+                        <li>Self-Expression and Creativity</li>
+                        <li>Cultivate Self-Confidence</li>
+                        <li>Stress Reduction</li>
+                        <li>Promote Healthy Coping</li>
+                        <li>Personal Growth</li>
+                    </ol>
+                    </p>
+                    <p class="p1">
+                        Each session typically lasts between 1.5 to 2 hours, which includes the time for inducing
+                        hypnosis.
+                        Achieve a better lifestyle and positive vibes with personalized self-care sessions from C.O.W.
+                        Soulmate, to maximizes comfort, helping you embrace yourself and feel happier and healthier.
                     </p>
                 </div>
 
                 <div class="desktop-view">
-                    <img :src="offer" class="hypnosis-image">
+                    <img :src="offerlg" class="hypnosis-image max-h-img">
                 </div>
             </section>
 

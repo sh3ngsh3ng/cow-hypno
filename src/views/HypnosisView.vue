@@ -134,7 +134,7 @@
                 </div>
 
                 <div class="desktop-view">
-                    <img id="long-img-offer" :src="offerlg" class="hypnosis-image">
+                    <img class="max-h-img hypnosis-image" :src="offerlg">
                 </div>
             </section>
 

@@ -160,3 +160,9 @@ section {
     }
 
 }
+
+@media screen and (min-width: 1280px) {
+    .max-h-img {
+        max-height: 700px;
+    }
+}

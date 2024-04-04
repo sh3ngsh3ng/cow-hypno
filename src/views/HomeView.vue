@@ -130,7 +130,8 @@
             session
             and address any inquiries. The free pre-consultation builds trust and ensures both parties are comfortable
             before starting therapy session.</p>
-          <button class="standard-btn">Book your free consultation now!</button>
+          <button class="standard-btn" @click="$sharedMethods.openConsultWidget()">Book your free consultation
+            now!</button>
         </div>
       </div>
 
