@@ -1,12 +1,16 @@
 <script>
+    import brief from '@/assets/svg/hypnosis-view/brief.svg';
     import healthcoach from '@/assets/svg/healthcoach-view/healthcoach.svg';
     import offer from '@/assets/svg/healthcoach-view/offer.svg';
+    import offerlg from '@/assets/svg/healthcoach-view/offer.svg';
     import consultation from '@/assets/svg/base/consultation.svg';
     export default {
         data() {
             return {
+                brief,
                 healthcoach,
                 offer,
+                offerlg,
                 consultation
             }
         }
@@ -32,27 +36,42 @@
             </div>
 
             <section class="hypnosis-section">
+                <div class="desktop-view">
+                    <img :src="brief" class="hypnosis-image">
+                </div>
+                <div class="hypnosis-section-left">
+                    <p class="section-header">The brief on Health Coach</p>
+                    <div class="mobile-view">
+                        <img :src="brief" class="hypnosis-image">
+                    </div>
+                    <p class="p1">
+                        A Health Coach is a valuable professional who helps to make positive changes to your lifestyle,
+                        improving your overall well-being and health. The role of a health coach may vary depending on
+                        each person's specific needs, but your ultimate goal is to guide and support in achieving your
+                        health and wellness goals through personalized strategies and behavior change techniques.
+                    </p>
+                </div>
+            </section>
+
+            <section class="hypnosis-section">
                 <div class="hypnosis-section-right">
                     <p class="section-header">What is Health Coach?</p>
                     <div class="mobile-view">
                         <img :src="healthcoach" class="hypnosis-image">
                     </div>
                     <p class="p1">
-                        Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
-                        behaviors by accessing your subconscious mind. This is where habits and behaviors take root and
-                        persist, making it challenging to alter them independently.
+                        Health coaches support and motivate you to reach your health goals.
                     </p>
                     <p class="p1">
-                        Remember that hypnotherapy should not replace medical treatment and should always be used
-                        together with other treatments as advised by a licensed medical professional. While hypnotherapy
-                        can be a useful tool for managing your mental health, it is not a one-size-fits-all solution.
-                        Each person’s situation is unique and a professional hypnotherapist can help determine if
-                        hypnotherapy is the right approach for you.
+                        Health Coache empower individuals to take control of their health by guiding them through
+                        personalized strategies, goal setting, education, behavior change support, and ongoing
+                        monitoring and evaluation. With our expertise and supportive approach, health coaches help
+                        individuals make sustainable lifestyle changes that lead to improved overall well-being.
                     </p>
                 </div>
 
                 <div class="desktop-view">
-                    <img :src="healthcoach" class="hypnosis-image">
+                    <img :src="healthcoach" class="hypnosis-image max-h-img">
                 </div>
             </section>
 
@@ -63,21 +82,34 @@
                         <img :src="offer" class="hypnosis-image">
                     </div>
                     <p class="p1">
-                        Hypnotherapy is a powerful type of therapy that enables you to overcome unwanted habits and
-                        behaviors by accessing your subconscious mind. This is where habits and behaviors take root and
-                        persist, making it challenging to alter them independently.
+                        Here are the support and accountability when you have engaged us as your health coach:
                     </p>
                     <p class="p1">
-                        Remember that hypnotherapy should not replace medical treatment and should always be used
-                        together with other treatments as advised by a licensed medical professional. While hypnotherapy
-                        can be a useful tool for managing your mental health, it is not a one-size-fits-all solution.
-                        Each person’s situation is unique and a professional hypnotherapist can help determine if
-                        hypnotherapy is the right approach for you.
+                    <ol>
+                        <li>Personalized Guidance - We offer tailored strategies based on your health status and goals.
+                            We develop a custom plan considering your lifestyle, preferences, and challenges.</li>
+                        <li>Goal Setting - We'll assist you in establishing realistic and achievable health goals. We're
+                            talking about things like weight management, improved nutrition, stress reduction, and
+                            better sleep habits. We'll work together to ensure that your goals are Specific, Measurable,
+                            Attainable, Relevant, and Time-bound (SMART), so we can monitor your progress effectively.
+                        </li>
+                        <li>Education and Information - We'll provide you with the most up-to-date and trustworthy
+                            evidence-based practices so that you can make informed decisions about your health. We'll
+                            cover topics such as nutrition, exercise, stress management, disease prevention, and other
+                            aspects of wellness.</li>
+                        <li>Supportive Relationship - We'll provide a safe, non-judgmental space for discussing your
+                            journey, fears, and successes. We're your cheerleader!</li>
+                        <li>Behavior Change Support - Techniques like Cognitive Behavior Therapy and Hypnosis will
+                            assist in adhering to health goals.</li>
+                        <li>Monitoring and Evaluation - We'll track your progress, adapting as needed. Health
+                            questionnaires, food diaries, and activity logs will monitor your health changes. Our aim is
+                            to help you achieve your goals!</li>
+                    </ol>
                     </p>
                 </div>
 
                 <div class="desktop-view">
-                    <img :src="offer" class="hypnosis-image">
+                    <img :src="offerlg" class="hypnosis-image max-h-img">
                 </div>
             </section>
 
